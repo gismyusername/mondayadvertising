@@ -1,0 +1,430 @@
+:root {
+  --darkBodyBg: #212529;
+  --darkBodyColor: #dee2e6;
+  --darkBorderColor: #363a3e;
+  --darkCardBg: #363a3e;
+}
+
+/** Dark Mode Btn CSS **/
+.dark-version {
+  position: fixed;
+  top: 84%;
+  transform: translateY(-84%);
+  right: 30px;
+}
+.dark-version .switch {
+  background-color: var(--mainColor);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
+}
+.dark-version .switch input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.dark-version .slider {
+  cursor: pointer;
+  color: var(--whiteColor);
+  transition: var(--transition);
+}
+.dark-version .slider:before {
+  position: relative;
+  left: 0;
+  content: "\ef72";
+  transform: translateY(-50%);
+  transition: var(--transition);
+  font-size: 20px;
+  font-family: remixicon !important;
+}
+.dark-version input:checked + .slider:before {
+  color: var(--whiteColor);
+  content: "\f1bf";
+}
+
+/** Start Dark Mode CSS **/
+body.theme-dark {
+  background-color: var(--darkBodyBg);
+  color: var(--darkBodyColor);
+}
+body.theme-dark .h1, body.theme-dark .h2, body.theme-dark .h3, body.theme-dark .h4, body.theme-dark .h5, body.theme-dark .h6, body.theme-dark h1, body.theme-dark h2, body.theme-dark h3, body.theme-dark h4, body.theme-dark h5, body.theme-dark h6 {
+  color: var(--whiteColor) !important;
+}
+body.theme-dark a {
+  color: #dee2e6 !important;
+}
+body.theme-dark .form-control {
+  background-color: transparent !important;
+  color: var(--whiteColor) !important;
+  border-color: #525253 !important;
+}
+body.theme-dark .form-control:focus {
+  border-color: var(--mainColor) !important;
+}
+body.theme-dark .form-control::-moz-placeholder {
+  color: var(--whiteColor);
+}
+body.theme-dark .form-control::placeholder {
+  color: var(--whiteColor);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .nav-link {
+  color: var(--whiteColor);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: var(--mainColor);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .nav-link.active {
+  color: var(--mainColor);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
+  color: var(--whiteColor);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover {
+  color: var(--mainColor);
+}
+body.theme-dark .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item.active {
+  color: var(--mainColor);
+}
+body.theme-dark .navbar.sticky {
+  background-color: var(--darkCardBg) !important;
+}
+body.theme-dark .navbar.navbar.bg-white {
+  background-color: var(--darkBodyBg) !important;
+}
+body.theme-dark .navbar.navbar.bg-white.sticky {
+  background-color: var(--darkCardBg) !important;
+}
+body.theme-dark .navbar .others-options ul li .src-form .src-btn img {
+  filter: invert(1);
+}
+body.theme-dark .navbar.border-bottom {
+  border-color: var(--darkBorderColor) !important;
+}
+body.theme-dark .main-logo {
+  display: none !important;
+}
+body.theme-dark .white-logo {
+  display: block !important;
+}
+body.theme-dark .banner-area.bg-1.pb-100 {
+  padding-bottom: 0 !important;
+}
+body.theme-dark .award-winning-area {
+  padding-top: 100px;
+}
+body.theme-dark .border-style {
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .border-style::after {
+  background-color: var(--darkBorderColor);
+}
+body.theme-dark .border-style::before {
+  background-color: var(--darkBorderColor);
+}
+body.theme-dark .award-single-item .award-experts a {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .award-single-item .award-experts a img {
+  filter: invert(1);
+}
+body.theme-dark .award-single-item .award-item img {
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .award-single-item.award-winning p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .award-single-item.award-winning img {
+  filter: invert(1);
+}
+body.theme-dark .award-single-item.review-on p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .award-single-item.review-on p.review {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .award-single-item.review-on img {
+  filter: invert(1);
+}
+body.theme-dark .award-single-item.oblig::before {
+  filter: brightness(0.3);
+}
+body.theme-dark .top-title {
+  color: var(--mainColor);
+}
+body.theme-dark .capabilities-single-item {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .bg-color-faf4f4 {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .fun-fact-trophy {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .fun-fact-trophy p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .fun-fact-single-item .icon {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .fun-fact-single-item p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .fun-fact-single-item.oblig::before {
+  filter: brightness(0.3);
+}
+body.theme-dark .partner-title {
+  color: var(--whiteColor);
+}
+body.theme-dark .testimonials-single-item .quality {
+  background-color: var(--darkCardBg);
+  color: var(--whiteColor);
+}
+body.theme-dark .testimonials-single-item p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .testimonials-review {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .bg-color-f2f2f8 {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .transform-right-content .call {
+  color: var(--whiteColor);
+}
+body.theme-dark .blog-single-item {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .blog-single-item .author span {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .blog-single-item .tags li a {
+  background-color: var(--darkBodyBg);
+  color: var(--darkBodyColor);
+}
+body.theme-dark .blog-single-item .tags li a:hover {
+  background-color: var(--mainColor);
+}
+body.theme-dark .blog-single-item.bg-white {
+  background-color: var(--darkCardBg) !important;
+}
+body.theme-dark .footer-wrap {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .footer-widget-single-item .import-link li a {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .footer-widget-single-item .social-link img {
+  filter: brightness(100);
+}
+body.theme-dark .copy-right p span {
+  color: var(--whiteColor);
+}
+body.theme-dark .what-we-do-single-item .icon {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .capabilities-single-item .icon {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .banner-wrap {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .banner-wrap-top {
+  background-color: rgb(60, 62, 64);
+}
+body.theme-dark .partner-title-2 {
+  color: var(--whiteColor);
+}
+body.theme-dark .partner-slide img {
+  filter: brightness(100);
+}
+body.theme-dark .partner-slide-two img {
+  filter: brightness(100);
+}
+body.theme-dark .what-we-do-tabs .nav-item .nav-link {
+  color: var(--darkBodyColor);
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .what-we-do-tabs .nav-item .nav-link.active {
+  background-color: transparent;
+  color: var(--whiteColor);
+}
+body.theme-dark .what-we-do-single-items {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .success-single-item.style-two .success-content h3 {
+  color: var(--whiteColor);
+}
+body.theme-dark .success-single-item.style-two .success-content span {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .testimonials-single-item-two::before {
+  background-color: var(--darkBorderColor);
+}
+body.theme-dark .for-before-after::before, body.theme-dark .for-before-after::after {
+  background-color: var(--darkBorderColor);
+}
+body.theme-dark .bg-color-ffeeee {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .fun-single-item.style-two h3 {
+  color: var(--whiteColor);
+}
+body.theme-dark .fun-single-item.style-two span {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .pioneering-single-item {
+  background-color: var(--darkCardBg);
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .pioneering-single-item .icon {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .fun-single-item.style-two .icon {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .testimonial-quot p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .services-details-bg::before {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .winning-agency-bg::before {
+  background: linear-gradient(to bottom, transparent, var(--darkBodyBg));
+}
+body.theme-dark .servives-sidebar {
+  background-color: var(--darkCardBg) !important;
+}
+body.theme-dark .servives-sidebar .cat-item {
+  color: var(--whiteColor);
+}
+body.theme-dark .servives-sidebar .cat-item:hover {
+  color: var(--mainColor);
+}
+body.theme-dark .fun-facts-wrap.bg-white {
+  background-color: var(--darkCardBg) !important;
+}
+body.theme-dark .team-single-team .team-content {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .team-single-team .team-img {
+  box-shadow: 60px 50px 0px var(--darkCardBg);
+}
+body.theme-dark .team-single-team ul img {
+  filter: brightness(100);
+}
+body.theme-dark .careers-list .careers-single-item {
+  background-color: var(--darkCardBg);
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .faq-accordion-wrap .accordion-item {
+  background-color: var(--darkCardBg);
+  border-radius: 20px !important;
+}
+body.theme-dark .faq-accordion-wrap .accordion-item .accordion-header .accordion-button {
+  background-color: var(--darkCardBg);
+  color: var(--whiteColor);
+}
+body.theme-dark .faq-accordion-wrap .accordion-body {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .faq-accordion-wrap .accordion-body p {
+  color: var(--whiteColor);
+}
+body.theme-dark .career-details-content {
+  background-color: var(--darkCardBg) !important;
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .career-details-content .ideal li::before {
+  background-color: var(--darkBodyColor);
+}
+body.theme-dark .our-process-wrap.bg-white {
+  background-color: var(--darkCardBg) !important;
+}
+body.theme-dark .success-details-bg::before {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .pagination-area .page-numbers {
+  background-color: var(--darkCardBg);
+  color: var(--darkBodyColor);
+}
+body.theme-dark .pagination-area .page-numbers.current {
+  background-color: var(--mainColor);
+}
+body.theme-dark .sidebar-single-widget h3 {
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .sidebar-single-widget.latest-post .latest-item .date {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .sidebar-single-widget.categories .cat-item .cat {
+  color: var(--whiteColor);
+}
+body.theme-dark .sidebar-single-widget.tag .tag-item {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .sidebar-single-widget.tag .tag-item:hover {
+  background-color: var(--mainColor);
+}
+body.theme-dark .blog-details-content .tag-social {
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .blog-details-content .post-comment {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .blog-details-content .tag-social .tags li a {
+  color: var(--whiteColor);
+}
+body.theme-dark .blog-details-content .tag-social .social-link li a img {
+  filter: brightness(100);
+}
+body.theme-dark .blog-details-content .post-nect-prev a span {
+  color: var(--whiteColor);
+}
+body.theme-dark .blog-details-content .post-nect-prev a img {
+  filter: brightness(100);
+}
+body.theme-dark .main-content-text p {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .main-content-text ol li {
+  color: var(--darkBodyColor);
+}
+body.theme-dark .contact-us-bg-wrap {
+  background-color: var(--darkCardBg);
+}
+body.theme-dark .contact-us-form .form-group label {
+  color: var(--whiteColor);
+}
+body.theme-dark .mobile-navbar .offcanvas-header {
+  background-color: var(--darkBodyBg);
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .mobile-navbar .offcanvas-header a.logo.d-inline-block {
+  display: none !important;
+}
+body.theme-dark .mobile-navbar .offcanvas-header .d-none {
+  display: block !important;
+}
+body.theme-dark .mobile-navbar .offcanvas-header .close-btn {
+  color: var(--whiteColor);
+}
+body.theme-dark .mobile-navbar .offcanvas-body {
+  background-color: var(--darkBodyBg);
+}
+body.theme-dark .mobile-navbar .offcanvas-body .mobile-menu .mobile-menu-list {
+  border-color: var(--darkBorderColor);
+}
+body.theme-dark .mobile-navbar .offcanvas-body .mobile-menu .mobile-menu-list:after {
+  color: var(--whiteColor);
+}
+body.theme-dark .mobile-navbar .offcanvas-body .mobile-menu .mobile-menu-list a {
+  color: var(--whiteColor);
+}
+body.theme-dark .mobile-navbar .offcanvas-body .mobile-menu .active > .mobile-menu-items {
+  background-color: var(--darkCardBg);
+}/*# sourceMappingURL=dark-mode.css.map */
