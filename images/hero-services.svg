@@ -1,0 +1,25 @@
+<svg width="440" height="440" viewBox="0 0 440 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M225.498 135.514V243.346L319.2 189.43V81.5985L314.274 84.4327C311.494 86.0321 230.408 132.689 227.14 134.57L225.498 135.514Z" stroke="white"/>
+<path d="M222.11 20.0785C223.634 20.9637 307.17 69.4844 308.726 70.3881L313.623 73.2322L220.478 127.334L127.334 73.2323L220.478 19.1304L222.11 20.0785Z" stroke="white"/>
+<path d="M215.459 243.346L122.872 189.431V81.5985L215.459 135.514V243.346Z" fill="url(#paint0_linear_13208_16606)"/>
+<path d="M19.1304 367.911L112.832 421.826V313.994L19.1304 260.079V367.911Z" fill="url(#paint1_linear_13208_16606)"/>
+<path d="M206.1 249.455L210.997 252.27L206.1 255.085L119.485 304.876L117.852 305.814L24.708 252.27L117.852 198.726L119.484 199.664L206.1 249.455Z" stroke="white"/>
+<path d="M122.872 313.994L135.413 306.691L210.591 262.913L215.459 260.079V367.911L122.872 421.826V313.994Z" stroke="white"/>
+<path d="M225.498 367.911L319.2 421.826V313.994L225.498 260.079V367.911Z" stroke="white"/>
+<path d="M417.364 252.27L412.467 249.455C410.911 248.561 327.376 200.54 325.852 199.664L324.22 198.726L231.075 252.27L324.22 305.814L325.852 304.876C328.021 303.629 409.119 257.009 412.467 255.085L417.364 252.27Z" stroke="white"/>
+<path d="M329.24 313.994V421.826L421.826 367.911V260.079L329.24 313.994Z" fill="url(#paint2_linear_13208_16606)"/>
+<defs>
+<linearGradient id="paint0_linear_13208_16606" x1="215.459" y1="162.472" x2="122.872" y2="162.472" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F66979"/>
+<stop offset="1" stop-color="#D278FE"/>
+</linearGradient>
+<linearGradient id="paint1_linear_13208_16606" x1="112.832" y1="340.952" x2="19.1304" y2="340.952" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FBA05A"/>
+<stop offset="1" stop-color="#F66979"/>
+</linearGradient>
+<linearGradient id="paint2_linear_13208_16606" x1="421.826" y1="340.952" x2="329.24" y2="340.952" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D278FE"/>
+<stop offset="1" stop-color="#2D69FB"/>
+</linearGradient>
+</defs>
+</svg>
