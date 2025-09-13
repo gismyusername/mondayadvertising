@@ -1,24 +1,24 @@
-<svg width="97" height="98" viewBox="0 0 97 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="97px" height="98px" viewBox="0 0 97 98" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0) scale(1, 1)">
 <path d="M48.5 97C75.0097 97 96.5 75.5096 96.5 49C96.5 22.4903 75.0097 1 48.5 1C21.9903 1 0.5 22.4903 0.5 49C0.5 75.5096 21.9903 97 48.5 97Z" stroke="url(#paint0_linear_7138_2064)" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M25.2505 68.6421C27.2153 64.1086 30.4625 60.2483 34.5928 57.5365C38.723 54.8246 43.556 53.3795 48.497 53.3789C53.4379 53.3783 58.2712 54.8223 62.4021 57.5331C66.533 60.244 69.7813 64.1034 71.7471 68.6364" stroke="url(#paint1_linear_7138_2064)" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M21.675 37.4429C22.1809 38.3177 22.901 39.0496 23.7675 39.5697C24.6341 40.0897 25.6186 40.3809 26.6286 40.4158C27.6387 40.4508 28.641 40.2283 29.5414 39.7694C30.4418 39.3105 31.2107 38.6301 31.7759 37.7922" stroke="url(#paint2_linear_7138_2064)" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M75.3229 37.4429C74.817 38.3177 74.0969 39.0496 73.2304 39.5697C72.3639 40.0897 71.3793 40.3809 70.3693 40.4158C69.3593 40.4508 68.357 40.2283 67.4566 39.7694C66.5562 39.3105 65.7873 38.6301 65.2221 37.7922" stroke="url(#paint3_linear_7138_2064)" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <linearGradient id="paint0_linear_7138_2064" x1="96.5" y1="49" x2="0.5" y2="49" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F66979"/>
-<stop offset="1" stop-color="#D278FE"/>
+<stop stop-color="#f0f569" data-originalstopcolor="#f0f569"/>
+<stop offset="1" stop-color="#ffe278" data-originalstopcolor="#ffe278"/>
 </linearGradient>
 <linearGradient id="paint1_linear_7138_2064" x1="71.7471" y1="61.0105" x2="25.2505" y2="61.0105" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F66979"/>
-<stop offset="1" stop-color="#D278FE"/>
+<stop stop-color="#f0f569" data-originalstopcolor="#f0f569"/>
+<stop offset="1" stop-color="#ffe278" data-originalstopcolor="#ffe278"/>
 </linearGradient>
 <linearGradient id="paint2_linear_7138_2064" x1="31.7759" y1="38.9311" x2="21.675" y2="38.9311" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F66979"/>
-<stop offset="1" stop-color="#D278FE"/>
+<stop stop-color="#f0f569" data-originalstopcolor="#f0f569"/>
+<stop offset="1" stop-color="#ffe278" data-originalstopcolor="#ffe278"/>
 </linearGradient>
 <linearGradient id="paint3_linear_7138_2064" x1="75.3229" y1="38.9311" x2="65.2221" y2="38.9311" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F66979"/>
-<stop offset="1" stop-color="#D278FE"/>
+<stop stop-color="#f0f569" data-originalstopcolor="#f0f569"/>
+<stop offset="1" stop-color="#ffe278" data-originalstopcolor="#ffe278"/>
 </linearGradient>
 </defs>
 </svg>

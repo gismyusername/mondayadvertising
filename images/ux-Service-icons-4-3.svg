@@ -1,14 +1,14 @@
-<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M130.504 30.7969H29.5463C25.4066 30.7969 22.0508 34.1532 22.0508 38.2933V121.172C22.0508 125.312 25.4066 128.668 29.5463 128.668H130.504C134.644 128.668 138 125.312 138 121.172V38.2933C138 34.1532 134.644 30.7969 130.504 30.7969Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22.0508 55.1089H138" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="160px" height="160px" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0) scale(1, 1)">
+<path d="M130.504 30.7969H29.5463C25.4066 30.7969 22.0508 34.1532 22.0508 38.2933V121.172C22.0508 125.312 25.4066 128.668 29.5463 128.668H130.504C134.644 128.668 138 125.312 138 121.172V38.2933C138 34.1532 134.644 30.7969 130.504 30.7969Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.0508 55.1089H138" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M44 110.447L62.5661 92.3126L73.3618 101.38L89.3372 84.8999L97.5407 93.1767L116.667 72.6667M116.667 72.6667V86.0001M116.667 72.6667H102.667" stroke="url(#paint0_linear_13307_1700)" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M37.6352 48.1902C40.3895 48.1902 42.6223 45.9573 42.6223 43.2031C42.6223 40.4488 40.3895 38.2161 37.6352 38.2161C34.881 38.2161 32.6482 40.4488 32.6482 43.2031C32.6482 45.9573 34.881 48.1902 37.6352 48.1902Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M56.3369 48.1902C59.0912 48.1902 61.324 45.9573 61.324 43.2031C61.324 40.4488 59.0912 38.2161 56.3369 38.2161C53.5826 38.2161 51.3499 40.4488 51.3499 43.2031C51.3499 45.9573 53.5826 48.1902 56.3369 48.1902Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M75.0383 48.1902C77.7926 48.1902 80.0254 45.9573 80.0254 43.2031C80.0254 40.4488 77.7926 38.2161 75.0383 38.2161C72.284 38.2161 70.0513 40.4488 70.0513 43.2031C70.0513 45.9573 72.284 48.1902 75.0383 48.1902Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.6352 48.1902C40.3895 48.1902 42.6223 45.9573 42.6223 43.2031C42.6223 40.4488 40.3895 38.2161 37.6352 38.2161C34.881 38.2161 32.6482 40.4488 32.6482 43.2031C32.6482 45.9573 34.881 48.1902 37.6352 48.1902Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56.3369 48.1902C59.0912 48.1902 61.324 45.9573 61.324 43.2031C61.324 40.4488 59.0912 38.2161 56.3369 38.2161C53.5826 38.2161 51.3499 40.4488 51.3499 43.2031C51.3499 45.9573 53.5826 48.1902 56.3369 48.1902Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M75.0383 48.1902C77.7926 48.1902 80.0254 45.9573 80.0254 43.2031C80.0254 40.4488 77.7926 38.2161 75.0383 38.2161C72.284 38.2161 70.0513 40.4488 70.0513 43.2031C70.0513 45.9573 72.284 48.1902 75.0383 48.1902Z" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <linearGradient id="paint0_linear_13307_1700" x1="116.667" y1="91.5571" x2="44" y2="91.5571" gradientUnits="userSpaceOnUse">
-<stop stop-color="#D278FE"/>
-<stop offset="1" stop-color="#2D69FB"/>
+<stop stop-color="#f0f569" data-originalstopcolor="#f0f569"/>
+<stop offset="1" stop-color="#ffe278" data-originalstopcolor="#ffe278"/>
 </linearGradient>
 </defs>
 </svg>
