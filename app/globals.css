@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0a0a14;
+  color: #e7e7ee;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-x {
+  @apply max-w-7xl mx-auto px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 hover:bg-brand-400 transition px-5 py-3 text-sm font-semibold text-white shadow-glow;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/15 hover:border-white/30 hover:bg-white/5 transition px-5 py-3 text-sm font-semibold text-white;
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-brand-200;
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-sm;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #fff 0%, #c8b9ff 50%, #6b48ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
