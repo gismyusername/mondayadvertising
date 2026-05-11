@@ -27,9 +27,6 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <a href="#contact" className="hidden sm:inline-flex btn-ghost">
-            Sign in
-          </a>
           <a href="#contact" className="btn-primary">
             Get started
           </a>
